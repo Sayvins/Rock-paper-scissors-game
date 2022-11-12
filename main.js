@@ -164,9 +164,9 @@ function gameEnd() {
         restart.style.visibility = 'visible'
     }
     if (playerLives === 5) {
-        firstToScore.innerText = 'This time you were stronger than computer. Congrats!'
+        firstToScore.innerText = 'This time you were stronger than the computer. Congrats!'
     } else if (computerLives === 5) {
-        firstToScore.innerText = 'Machine is better than you, haha! Maybe you shall play in something else?'
+        firstToScore.innerText = 'Machine is better than you, haha! Maybe you should play something else?'
     } else {
         firstToScore.innerText ='First to score 5 points wins the game'
     }
